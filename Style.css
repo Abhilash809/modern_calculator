@@ -35,7 +35,7 @@ input{
     font-size: 40px;
     text-align: right;
     cursor:pointer;
-    
+    color:#ffffff;
 }
 
 input::placeholder{
@@ -61,5 +61,38 @@ button{
 }
 
 .operator{
+    color: #6dee0a;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding-top: 10px;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.equalBtn {
+    background-color: #fb7c14;
+    color: #fff;
+}
+
+.operator {
     color: #6dee0a;
 }
