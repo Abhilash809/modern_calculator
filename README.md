@@ -8,7 +8,7 @@ A sleek, modern calculator built with **HTML**, **CSS (Neumorphism Design)**, an
 
 ### 📸 Preview
 
-![Calculator Preview](preview.png)
+![Calculator Preview](preview.png.png)
 
 ---
 
